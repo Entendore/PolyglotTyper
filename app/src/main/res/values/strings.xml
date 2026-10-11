@@ -1,0 +1,115 @@
+<resources>
+    <!-- Core -->
+    <string name="app_name">Polyglot Typer</string>
+    <string name="select_language">Choose a language</string>
+    <string name="select_mode">Game mode</string>
+    <string name="start_typing">Start typing</string>
+    <string name="best_wpm">Best: %1$d WPM</string>
+    <string name="games_played">%1$d games</string>
+    <string name="no_games_yet">No games yet</string>
+    <string name="keyboard_hint">Tip: add a keyboard for your chosen language in system settings.</string>
+    <string name="exit_game">Exit</string>
+    <string name="wpm_label">WPM</string>
+    <string name="accuracy_label">Accuracy</string>
+    <string name="words_progress">%1$d / %2$d words</string>
+    <string name="tap_to_start">Tap to start</string>
+    <string name="type_here">Type here…</string>
+    <string name="results_title">Session complete!</string>
+    <string name="correct_words">Correct</string>
+    <string name="incorrect_words">Wrong</string>
+    <string name="duration">Time</string>
+    <string name="seconds_format">%1$d s</string>
+    <string name="play_again">Play again</string>
+    <string name="go_home">Home</string>
+    <string name="stats_title">Statistics</string>
+    <string name="back">Back</string>
+    <string name="per_language">By language</string>
+    <string name="recent_games">Recent games</string>
+    <string name="avg_accuracy">Avg accuracy: %1$d%%</string>
+    <string name="no_results">Nothing here yet — play your first game!</string>
+
+    <!-- Game UI -->
+    <string name="paused">Paused</string>
+    <string name="resume">Resume</string>
+    <string name="finish">Finish</string>
+    <string name="toggle_keyboard">Toggle practice keyboard</string>
+    <string name="space_key">space</string>
+    <string name="backspace_key">Backspace</string>
+
+    <!-- Keyboard layouts -->
+    <string name="select_layout">Keyboard layout</string>
+    <string name="layout_auto_label">Automatic (%1$s)</string>
+    <string name="layout_auto_desc">Uses the traditional layout for your selected language</string>
+    <string name="layout_group_standard">Standard layouts</string>
+    <string name="layout_group_ergonomic">Ergonomic layouts</string>
+    <string name="layout_group_learning">Learning</string>
+    <string name="layout_desc_qwerty">Classic international layout</string>
+    <string name="layout_desc_azerty">Standard in France and Belgium</string>
+    <string name="layout_desc_qwertz">Standard in Germany, Austria and Switzerland</string>
+    <string name="layout_desc_dvorak">Ergonomic classic, optimized for English</string>
+    <string name="layout_desc_colemak">Modern ergonomic, optimized for English</string>
+    <string name="layout_desc_bepo">Ergonomic, designed for French</string>
+    <string name="layout_desc_neo">Ergonomic, optimized for German</string>
+    <string name="layout_desc_turkish_f">Official Turkish ergonomic layout</string>
+    <string name="layout_desc_abc">Alphabetical keys — ideal for beginners</string>
+
+    <!-- Gamification -->
+    <string name="level_label">Level %1$d</string>
+    <string name="xp_to_next">%1$d XP to level %2$d</string>
+    <string name="streak_label">Day streak</string>
+    <string name="streak_at_risk">Your 🔥 streak ends today — play the Daily Challenge!</string>
+    <string name="daily_title">Daily Challenge</string>
+    <string name="daily_desc">25 words — the same set for everyone, once a day</string>
+    <string name="daily_done">Done today ✓</string>
+    <string name="reward_xp">+%1$d XP</string>
+    <string name="level_up">Level up → %1$d 🎉</string>
+    <string name="new_achievements">New achievements!</string>
+    <string name="achievements">Achievements</string>
+    <string name="ach_locked">Locked</string>
+    <string name="arcade_title">Word Rain</string>
+    <string name="arcade_desc">Type falling words before they land — 3 lives</string>
+    <string name="rain_game_over">Game over</string>
+    <string name="rain_score">Score</string>
+    <string name="rain_words">Words</string>
+    <string name="rain_level">Level %1$d</string>
+    <string name="ach_first_game_t">First Steps</string>
+    <string name="ach_first_game_d">Play your first game</string>
+    <string name="ach_games_10_t">Warming Up</string>
+    <string name="ach_games_10_d">Play 10 games</string>
+    <string name="ach_games_50_t">Dedicated</string>
+    <string name="ach_games_50_d">Play 50 games</string>
+    <string name="ach_wpm_40_t">Cruising</string>
+    <string name="ach_wpm_40_d">Reach 40 WPM</string>
+    <string name="ach_wpm_60_t">Fast Fingers</string>
+    <string name="ach_wpm_60_d">Reach 60 WPM</string>
+    <string name="ach_wpm_80_t">Lightning</string>
+    <string name="ach_wpm_80_d">Reach 80 WPM</string>
+    <string name="ach_perfect_t">Flawless</string>
+    <string name="ach_perfect_d">10+ correct words at 100% accuracy</string>
+    <string name="ach_poly3_t">Trilingual</string>
+    <string name="ach_poly3_d">Play in 3 languages</string>
+    <string name="ach_polyall_t">Polyglot</string>
+    <string name="ach_polyall_d">Play in every language</string>
+    <string name="ach_layouts_t">Layout Explorer</string>
+    <string name="ach_layouts_d">Try 3 keyboard layouts</string>
+    <string name="ach_streak3_t">On Fire</string>
+    <string name="ach_streak3_d">3-day daily streak</string>
+    <string name="ach_streak7_t">Unstoppable</string>
+    <string name="ach_streak7_d">7-day daily streak</string>
+    <string name="ach_rain50_t">Storm Chaser</string>
+    <string name="ach_rain50_d">Destroy 50 words in one Word Rain run</string>
+    <string name="ach_rain2m_t">Survivor</string>
+    <string name="ach_rain2m_d">Survive 2 minutes in Word Rain</string>
+
+    <!-- Stats -->
+    <string name="by_layout">By layout</string>
+    <string name="wpm_history">WPM history</string>
+    <string name="wpm_history_peak">peak %1$d</string>
+
+    <!-- Daily reminders -->
+    <string name="reminder_channel">Daily reminders</string>
+    <string name="reminder_title">Your streak is waiting 🔥</string>
+    <string name="reminder_text">Today\'s Daily Challenge takes 2 minutes — keep the streak alive!</string>
+    <string name="daily_reminders">Daily reminder</string>
+    <string name="daily_reminders_desc">Nudge me in the evening if today\'s Daily is still unplayed</string>
+</resources>
